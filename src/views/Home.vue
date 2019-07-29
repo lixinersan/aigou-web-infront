@@ -75,7 +75,7 @@
 	export default {
 		data() {
 			return {
-				sysName:'VUEADMIN',
+				sysName:'爱猫网购物商城',
 				collapsed:false,
 				sysUserName: '',
 				sysUserAvatar: '',
