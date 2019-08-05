@@ -66,7 +66,7 @@
               }
             });*/
           //自己使用axios发送ajax请求
-              this.$http.post('/login',loginParams)
+              this.$http.post('/plat/login',loginParams)
                   .then((res)=>{
                       console.debug(res)
                       this.logining = false;

@@ -9,7 +9,12 @@ import Page4 from './views/nav2/Page4.vue'
 import Page5 from './views/nav2/Page5.vue'
 import Page6 from './views/nav3/Page6.vue'
 import echarts from './views/charts/echarts.vue'
-
+//商品
+import Brand from './views/product/Brand.vue'
+//类型
+import ProductType from './views/product/ProductType.vue'
+//商品管理
+import Product from './views/product/Product.vue'
 let routes = [
     {
         path: '/login',
@@ -42,11 +47,11 @@ let routes = [
         iconCls: 'el-icon-message',//图标样式class
         children: [
             //, hidden: true  这个加在后面就会隐藏
-            { path: '/main', component: Main, name: '商品品牌'},
-            { path: '/table', component: Table, name: '商品类型' },
+            { path: '/brand', component: Brand, name: '商品品牌'},
+            { path: '/ProductType', component: ProductType, name: '商品类型' },
             { path: '/form', component: Form, name: '商品模板' },
             { path: '/user', component: user, name: '商品规格' },
-            { path: '/page4', component: Page4, name: '商品管理' },
+            { path: '/product', component: Product, name: '商品管理' },
         ]
     },
     {
